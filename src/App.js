@@ -1,15 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
-import {} from ;
+import 'bootstrap/dist/css/bootstrap.min.css'
+//import Contato from "./components/"
+import Footer from "./components/footer"
+//import Parceiros from "./components"
+//import Servicos from "./components"
+//import Servicos from "./components"
+import Sobre from "./components/sobre"
+import Topo from "./components/topo"
 
-function App() {
-  return (
-    <div className="App">
-      <Topo name="" img=""></Topo>
-      <footer>nao sei</footer>
-    </div>
-  );
+class App extends Component{
+  render(){
+    return(
+      <div>
+        <Topo mene="jjjj"></Topo>
+      </div>
+    )
+  }
 }
 
 export default App;

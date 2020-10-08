@@ -1,16 +1,6 @@
 import { render } from '@testing-library/react';
 import React, { Component } from 'react';
 
-//function Topo(){
-//    return(
-//        <header>
-//            <nav>
-//                <a>home</a>
-//            </nav>
-//        </header>
-//    );
-//}
-
 class Topo extends Component{
     render(){
         return(
