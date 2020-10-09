@@ -1,25 +1,24 @@
 import React, { Component } from 'react';
 
-class foter extends Component{
+class footer extends Component{
     constructor(){
         super()
         this.state = {
-            contato: "descobre ai",
+            contato: "esqueci",
             email: "nao lenbro",
             ano:"2000 e pouco",
-            autor: "eu"
+            autor: "autor eu mesmo"
         }
-        
     }
 
     render(){
         return(
-            <footer className="footer">
-                <p>fale conosco: telefone: {this.state.contato} - E-mail: {this.state.email}</p>
+            <footer className="footer bg-dark">
+                <p>fale conosco: ou não - telefone: {this.state.contato} - E-mail: {this.state.email}</p>
                 <p>copyright@{this.state.ano} - {this.state.autor}</p>
             </footer>
         );
     }
 }
 
-export default sobre
+export default footer   

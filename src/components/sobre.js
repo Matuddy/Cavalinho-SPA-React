@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import '../style/sobre.css'
 
-class sobre extends Component{
+class Sobre extends Component{
     constructor(props){
         super()
         this.stete = {
             name: 'fulano',
-            age: props.age
         }
         this.setName = this.setName.bind(this) 
     }
@@ -18,18 +18,17 @@ class sobre extends Component{
 
     resetName(){
         this.setState({
-            name: "fulanok"
+            name: "fulano"
         })
     }
 
     render(){
         return(
-            <div id="sobre" className="py-5 by-dark">
-                <h1>SOBRE</h1>
-                <p>this.state.text</p>
-                <p>eu sou o {this.stete}</p>
-                <button onclick={this.setName}>Mudar nome</button>
+            <div id="sobre" className="bg-dark sobre">
+                <h1>SITE DO BATMAN</h1>
             </div>
         )
     }
 }
+
+export default Sobre
